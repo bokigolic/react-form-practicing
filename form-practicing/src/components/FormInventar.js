@@ -26,7 +26,7 @@ const FormInventar = () => {
 
   const handleClickSubmit = () => {
     console.log("Submit", formState);
-    
+
 
   };
 
