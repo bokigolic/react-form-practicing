@@ -1,5 +1,11 @@
 {
-  "cars":[
-  
+  "cars": [
+    {
+      "make": "fdd",
+      "model": "adda",
+      "color": "blue",
+      "year": "2021",
+      "id": 1
+    }
   ]
 }
