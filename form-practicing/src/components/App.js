@@ -1,9 +1,11 @@
-import FormInventar from "./FormInventar";
+import CarInventar from "./FormInventar";
+import Navbar from "./Navbar";
 
 const App = () => {
   return (
     <div className="App">
-      <FormInventar />
+      <Navbar />
+      <CarInventar />
     </div>
   );
 }

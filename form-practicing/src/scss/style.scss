@@ -1,6 +1,67 @@
-.form-inventar{
+.for-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.car-inventar {
   padding: 15px;
   border: 1px solid black;
   border-radius: 6px;
-  max-width: 500px;
+  width: 500px;
+  margin-top: 150px;
+
+  .make-model-color-year {
+   padding: 10px;
+  }
+
+
+}
+
+.button-submit {
+  display: flex;
+  justify-content: center;
+
+  button {
+    background-color: rgb(177, 250, 250);
+
+  }
+}
+
+.navbar {
+  height: 60px;
+  background-color: rgb(55, 162, 223);
+
+  position: relative;
+
+  .find-car {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    right: 500px;
+
+
+  }
+
+  .find-car li {
+    line-height: 60px;
+    margin: 0 0px;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .find-car li a {
+    position: relative;
+    margin: 0 20px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
 }
