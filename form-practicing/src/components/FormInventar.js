@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import axios from 'axios'
 
 
 const FormInventar = () => {
@@ -26,10 +27,12 @@ const FormInventar = () => {
 
   const handleClickSubmit = () => {
     console.log("Submit", formState);
-    
-
+    const url = "http://localhost:3034/cars"
+    const data = {
+      ...formState
+    }
+    axios.post(url, data)
   };
-
 
   return (
     <div className="form-inventar">
