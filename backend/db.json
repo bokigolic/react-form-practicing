@@ -1,137 +1,18 @@
 {
   "cars": [
     {
-      "make": "fdd",
-      "model": "adda",
-      "color": "blue",
-      "year": "2021",
-      "id": 1
-    },
-    {
-      "make": "fdd",
-      "model": "adda",
+      "make": "Audi",
+      "model": "q7",
       "color": "blue",
       "year": "2021",
       "id": 2
     },
     {
-      "make": "fddgbgg",
-      "model": "addahgdthdth",
-      "color": "green",
-      "year": "2022",
+      "make": "Audi",
+      "model": "q7",
+      "color": "white",
+      "year": "2017",
       "id": 3
-    },
-    {
-      "make": "fddgbgg",
-      "model": "addahgdthdth",
-      "color": "green",
-      "year": "2022",
-      "id": 4
-    },
-    {
-      "make": "fddgbgg",
-      "model": "addahgdthdth",
-      "color": "green",
-      "year": "2022",
-      "id": 5
-    },
-    {
-      "make": "fddgbgg",
-      "model": "addahgdthdth",
-      "color": "green",
-      "year": "2022",
-      "id": 6
-    },
-    {
-      "make": "",
-      "model": "",
-      "color": "",
-      "year": "",
-      "id": 7
-    },
-    {
-      "make": "",
-      "model": "",
-      "color": "",
-      "year": "",
-      "id": 8
-    },
-    {
-      "make": "",
-      "model": "",
-      "color": "",
-      "year": "",
-      "id": 9
-    },
-    {
-      "make": "",
-      "model": "",
-      "color": "",
-      "year": "",
-      "id": 10
-    },
-    {
-      "make": "",
-      "model": "",
-      "color": "",
-      "year": "",
-      "id": 11
-    },
-    {
-      "make": "",
-      "model": "",
-      "color": "",
-      "year": "",
-      "id": 12
-    },
-    {
-      "make": "",
-      "model": "",
-      "color": "",
-      "year": "",
-      "id": 13
-    },
-    {
-      "make": "",
-      "model": "",
-      "color": "",
-      "year": "",
-      "id": 14
-    },
-    {
-      "make": "",
-      "model": "",
-      "color": "",
-      "year": "",
-      "id": 15
-    },
-    {
-      "make": "",
-      "model": "",
-      "color": "",
-      "year": "",
-      "id": 16
-    },
-    {
-      "make": "",
-      "model": "",
-      "color": "",
-      "year": "",
-      "id": 17
-    },
-    {
-      "make": "",
-      "model": "",
-      "color": "",
-      "year": "",
-      "id": 18
-    },
-    {
-      "make": "",
-      "model": "",
-      "color": "",
-      "year": "",
-      "id": 19
     }
   ]
 }

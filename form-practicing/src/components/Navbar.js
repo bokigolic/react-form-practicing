@@ -3,12 +3,13 @@
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="find-car">
-        <li><a href="#">Find your car</a></li>
+      <div className="navbar-menu">
+        <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
-      </div>
-      <div>
-        
+       {/* <li><a href="./pages/Contact.js">Contact</a></li> 
+       pitanje, kako naoraviti rutiranje na slececu stranu???
+       
+       */}
       </div>
 
     </div>
