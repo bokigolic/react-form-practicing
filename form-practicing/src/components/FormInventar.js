@@ -32,35 +32,38 @@ const CarInventar = () => {
 
   return (
     <div className='for-flex'>
-      <div className="car-inventar">
+      <div className="car-inventory">
         <h1>Add new car</h1>
         <form>
           <div className='make-model-color-year'>
-            <div>
+            <div className='make'>
               <label>Make </label>
               <input
+               placeholder="--Choose a make--"
                 type="text"
                 name="make"
                 value={formState.make}
                 onChange={handleChange}
               />
             </div>
-            <div>
+            <div className='model'>
               <label>Model </label>
               <input
+              placeholder="--Choose a model--"
                 type="text"
                 name="model"
                 value={formState.model}
                 onChange={handleChange}
               />
             </div>
-            <div>
+            <div className='color'>
               <label>Color </label>
               <select
                 name="color"
                 value={formState.color}
                 onChange={handleChange}
               >
+
                 <option value="red" >
                   Red
                 </option>
@@ -90,7 +93,7 @@ const CarInventar = () => {
                 </option>
               </select>
               <div>
-                <div>
+                <div className='year'>
                   <label>Year </label>
                   <select
                     name="year"

@@ -1,23 +1,49 @@
+body {
+  background-image: url(../scss/carss.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  
+}
+
 .for-flex {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
 
 
+  h1 {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+  }
 }
 
-.car-inventar {
+.car-inventory {
   padding: 15px;
-  border: 1px solid black;
+  border: 2px solid white;
+  box-shadow: 5px 5px 5px rgb(246, 242, 242);
   border-radius: 6px;
   width: 500px;
   margin-top: 150px;
 
-  .make-model-color-year {
-   padding: 10px;
-  }
+  .make-model-color-year input {
+    padding: 5px 5px;
+    margin: 5px 5px;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+   
+   
+    width: 100%;
+    padding:10px;
+    border-radius:10px;
 
+
+  }
+  select {
+    width: 100%;
+    padding:10px;
+    border-radius:10px;
+  }
 
 }
 
@@ -41,9 +67,9 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    display: flex;
+    display: block;
     position: absolute;
-    right: 500px;
+
 
 
   }

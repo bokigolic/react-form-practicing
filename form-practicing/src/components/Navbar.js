@@ -4,10 +4,12 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="find-car">
-      <li><a href="#">Find your car</a></li>
-          <li><a href="#">About</a></li>
+        <li><a href="#">Find your car</a></li>
+        <li><a href="#">About</a></li>
       </div>
-
+      <div>
+        
+      </div>
 
     </div>
   );
