@@ -11,6 +11,7 @@ const CarInventar = () => {
   }
   const [formState, setFormState] = useState(preset);
 
+  //universal handle change
   const handleChange = (e) => {
     const target = e.target;
     const value = target.type === 'checkbox' ? target.checked : target.value;
@@ -39,7 +40,7 @@ const CarInventar = () => {
             <div className='make'>
               <label>Make </label>
               <input
-               placeholder="--Choose a make--"
+               placeholder="--Choose make--"
                 type="text"
                 name="make"
                 value={formState.make}
@@ -49,7 +50,7 @@ const CarInventar = () => {
             <div className='model'>
               <label>Model </label>
               <input
-              placeholder="--Choose a model--"
+              placeholder="--Choose model--"
                 type="text"
                 name="model"
                 value={formState.model}
