@@ -29,6 +29,14 @@ const CarInventar = () => {
       ...formState
     }
     axios.post(url, data)
+      .then((response) => {
+        //when axios receive response from backend, clear form 
+        if (response && response.data && response.data.id) {
+          const addCar = response.data.id;
+          window.alert('Successful added car ' + addCar + 'id')
+          setFormState({...preset});
+        }
+      })
   };
 
   return (
@@ -40,7 +48,7 @@ const CarInventar = () => {
             <div className='make'>
               <label>Make </label>
               <input
-               placeholder="--Choose make--"
+                placeholder="--Choose make--"
                 type="text"
                 name="make"
                 value={formState.make}
@@ -50,7 +58,7 @@ const CarInventar = () => {
             <div className='model'>
               <label>Model </label>
               <input
-              placeholder="--Choose model--"
+                placeholder="--Choose model--"
                 type="text"
                 name="model"
                 value={formState.model}

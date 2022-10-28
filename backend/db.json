@@ -13,6 +13,27 @@
       "color": "white",
       "year": "2017",
       "id": 3
+    },
+    {
+      "make": "BMW",
+      "model": "x5",
+      "color": "green",
+      "year": "2021",
+      "id": 4
+    },
+    {
+      "make": "fiat",
+      "model": "c500",
+      "color": "blue",
+      "year": "2016",
+      "id": 5
+    },
+    {
+      "make": "bmw",
+      "model": "3",
+      "color": "blue",
+      "year": "2021",
+      "id": 6
     }
   ]
 }

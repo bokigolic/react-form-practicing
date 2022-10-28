@@ -1,10 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-image: url(../scss/carss.avif);
+  background-image: url(../scss/cars.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
 
-  
+
 }
 
 .for-flex {
@@ -32,15 +38,16 @@ body {
     box-sizing: border-box;
     font-family: "Trebuchet MS", Verdana, sans-serif;
     width: 100%;
-    padding:10px;
-    border-radius:10px;
+    padding: 10px;
+    border-radius: 10px;
 
 
   }
+
   select {
     width: 100%;
-    padding:10px;
-    border-radius:10px;
+    padding: 10px;
+    border-radius: 10px;
   }
 
 }
@@ -71,13 +78,14 @@ body {
 
 
   }
+
   .navbar-menu li {
     line-height: 60px;
     margin: 0 0px;
     padding: 0;
     text-align: center;
     display: inline-block;
-   
+
   }
 
   .navbar-menu li a {
@@ -92,9 +100,9 @@ body {
 
 }
 
-.button-submit button{
+.button-submit button {
   width: 100%;
-  padding:10px;
-  border-radius:10px;
+  padding: 10px;
+  border-radius: 10px;
   margin-top: 20px;
 }
