@@ -7,4 +7,4 @@ json-server --watch db.json --port 3034
 
 
 Then check in your browser, for example:
-http://localhost:3033/packages
+http://localhost:3034/cars
