@@ -2,17 +2,21 @@
 
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <div className="navbar-menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-       {/* <li><a href="./pages/Contact.js">Contact</a></li> 
+        <div className="links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/create">Add new Car</a></li>
+          <li><a href="/update">Update Inventory</a></li>
+          <li><a href="/delete">Delete from inventory</a></li>
+        </div>
+        {/* <li><a href="./pages/Contact.js">Contact</a></li> 
        pitanje, kako naoraviti rutiranje na slececu stranu???
        
        */}
       </div>
 
-    </div>
+    </nav>
   );
 };
 export default Navbar;
